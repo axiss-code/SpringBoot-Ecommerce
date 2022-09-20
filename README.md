@@ -27,7 +27,7 @@ Installation
 
 - An ADMIN user must be created for the Backend View. If DB file is deleted:
     - Create a standard user (http://localhost:8080/usuario/registro) and manually change the ROLE from USER to ADMIN in the DB.
-    - http://localhost:8080/h2-console to access to the web-based DB administrator embedded with H2-DB (prejust click connect button)
+    - http://localhost:8080/h2-console to access to the web-based DB administrator embedded with H2-DB (pre-filled data is ok: just click connect button)
     
 - In the application.properties file can be changed the DB by a different one like MySql
     - Remember to include proper dependencies in pom.xml, and create an ADMIN user in the new DB.
